@@ -6,6 +6,9 @@ files:
   - source: /
     destination: /home/ec2-user/build
 hooks:
-  AfterInstall:
+  BeforeInstall:
+    - location: /initailize.sh
+      runas: root
+  ApplicationStart:
     - location: /start.sh
       runas: root
