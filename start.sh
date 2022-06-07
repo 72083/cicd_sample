@@ -1,1 +1,1 @@
-pwd>/home/location
+pwd>/home/ec2-user/location
