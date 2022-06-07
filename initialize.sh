@@ -1,1 +1,1 @@
-if [ -d "/home/ec2-user/build" ]; then re -Rf "/home/ec2-user/build"; fi
+if [ -d "/home/ec2-user/build" ]; then rm -Rf "/home/ec2-user/build"; fi
